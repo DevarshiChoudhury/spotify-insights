@@ -1,0 +1,36 @@
+# Python caches
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environment / Conda environment
+venv/
+env/
+*.conda
+*.env
+.spotify-insights/  # Optional if you named your env folder like this
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Data files (raw + processed)
+data/
+*.csv
+*.json
+
+# Configuration files containing credentials
+config/spotify_credentials.json
+
+# Logs
+*.log
+updates_log.csv
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# IDE/editor files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
