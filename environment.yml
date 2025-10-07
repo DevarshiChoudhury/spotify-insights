@@ -1,0 +1,16 @@
+name: spotify-insights
+dependencies:
+  - python=3.11
+  - pandas
+  - numpy
+  - matplotlib
+  - seaborn
+  - pip
+  - pip:
+      - spotipy
+      - plotly
+      - schedule
+      - streamlit
+      - jupyterlab
+      - notebook
+      - fpdf2
